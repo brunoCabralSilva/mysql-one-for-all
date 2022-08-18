@@ -79,8 +79,8 @@ CREATE TABLE SpotifyClone.album(
     ("Falso Brilhante", 1998, 3),
     ("Vento de Maio", 2001, 3),
     ("QVVJFA?", 2003, 4),
-    ("Somewhere Far Beyond", 2007, 5),
-    ("I Put A Spell On You", 2012, 6);
+    ("Somewhere Far Beyond", 2007, 6),
+    ("I Put A Spell On You", 2012, 5);
 
   INSERT INTO SpotifyClone.song(song_name, song_duration, album_id)
   VALUES
@@ -136,10 +136,10 @@ CREATE TABLE SpotifyClone.album(
       (2, 3),
       (3, 2),
       (4, 4),
-      (5, 5),
       (5, 6),
-      (6, 6),
+      (5, 5),
+      (6, 5),
       (6, 1),
-      (7, 6),
+      (7, 5),
       (9, 3),
       (10, 2);
